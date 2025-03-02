@@ -47,6 +47,6 @@ datasets/*
 !datasets/*.py
 !datasets/*.sh
 dataset/Scene2ver2
-retsults/*
+results/*
 cascade_results/*
 logs/*
