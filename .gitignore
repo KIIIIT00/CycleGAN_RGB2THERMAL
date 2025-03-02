@@ -1,6 +1,5 @@
-datasets/
-checkpoints/
-results/
+.DS_Store
+debug*
 build/
 dist/
 *.png
@@ -38,3 +37,16 @@ test/.coverage
 */**/*.dylib*
 test/data/legacy_serialized.pt
 *~
+.idea
+
+#Ignore Wandb
+wandb/*
+
+checkpoints/**/*.pth
+datasets/*
+!datasets/*.py
+!datasets/*.sh
+dataset/Scene2ver2
+results/*
+cascade_results/*
+logs/*
