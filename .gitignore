@@ -49,3 +49,4 @@ datasets/*
 dataset/Scene2ver2
 retsults/*
 cascade_results/*
+logs/*
